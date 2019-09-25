@@ -1,0 +1,93 @@
+header {
+  background-color: rgb(5, 5, 5);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > ul {
+  color: rgb(228, 228, 228);
+  align-items: center;
+  display: flex;
+  margin-right: 15px;
+}
+
+header img {
+  width: 55px;
+}
+
+li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+}
+/* .profile {
+  background-color: rgb(152, 182, 194);
+  min-height: calc(100vh - 100px);
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: left;
+  align-content: stretch;
+} */
+
+.profile {
+  max-width: 1000px;
+  background: rgb(181, 196, 204);
+  height: 100vh;
+  width: 30%;
+  align-self:
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+h2 {
+  color: rgb(5, 5, 5);
+  align-self: stretch;
+  flex-basis: 90px;
+  position: relative;
+  left: 30px;
+}
+h1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(230, 222, 230);
+  position: relative;
+  left: 40px;
+}
+h3 {
+  color: rgb(5, 5, 5);
+  align-self: stretch;
+  flex-basis: 90px;
+  position: relative;
+  left: 30px;
+}
+
+.top {
+  background-color: rgb(219, 226, 226);
+  height: 100vh;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  align-content: space-around;
+}
+
+.top > div {
+  margin-left: 100px;
+  background-color: brown;
+  justify-content: space-around;
+}
+.middle {
+}
